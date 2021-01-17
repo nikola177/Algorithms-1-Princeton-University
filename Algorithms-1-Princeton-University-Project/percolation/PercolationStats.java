@@ -92,9 +92,24 @@ public class PercolationStats {
     
 	public static void main(String[] args) {
 		
+		/*Course style for testing:
+		 * 
 		int n = Integer.parseInt(args[0]);
 		int T = Integer.parseInt(args[1]);
-	
+		
+		---------------------------------------
+		
+		Simpler way for testing:
+		
+		int n = 100;
+		int T = 1000;
+		
+		Try different value for n and T
+		
+		*/
+		int n = 100;
+		int T = 1000;
+		
 		PercolationStats pS = new PercolationStats(n, T);
 		StdOut.println("mean                    = " + pS.mean());
 		StdOut.println("stddev                  = " + pS.stddev());
