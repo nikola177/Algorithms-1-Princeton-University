@@ -104,7 +104,7 @@ public class PercolationStats {
 		int n = 100;
 		int T = 1000;
 		
-		Try different value for n and T
+		Try different value for n and T.
 		
 		*/
 		int n = 100;
